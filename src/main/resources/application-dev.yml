@@ -1,0 +1,62 @@
+spring:
+  threads:
+    virtual:
+      enabled: true
+
+  security:
+    jwt:
+      public-key: ${JWT_PUBLIC_KEY_PATH:classpath:certs/public.pem}
+
+  application:
+    name: map-service
+
+  data:
+    arango:
+      host: ${ARANGO_HOST:localhost}
+      port: ${ARANGO_PORT:8529}
+      user: ${ARANGO_USER:root}
+      password: ${ARANGO_PASS:root}
+      database: ${ARANGO_DB:map-db}
+
+  jpa:
+    show-sql: ${JPA_SHOW_SQL:true}
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: validate
+
+graphhopper:
+  osm-file: ${OSM_FILE:classpath:map/northwestern-fed-district-260424.osm.pbf}
+  graph-location: ${GRAPH_LOCATION:graph-cache}
+  profiles:
+    - name: foot
+      vehicle: foot
+      weighting: shortest
+  profiles_ch:
+    - profile: foot
+
+logging:
+  level:
+    org.springframework.security: ${LOG_LEVEL_SECURITY:DEBUG}
+    org.hack: ${LOG_LEVEL_APP:DEBUG}
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+    tags-sorter: alpha
+    try-it-out-enabled: true
+    filter: true
+  api-docs:
+    path: /v3/api-docs
+    enabled: true
+  show-actuator: true
+
+server:
+  port: ${SERVER_PORT:8084}
+  address: 0.0.0.0
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true

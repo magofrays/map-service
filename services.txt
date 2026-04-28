@@ -1,0 +1,26 @@
+https://petersburg.ru/mainPortal/api_services/view/2216 -- обращения граждан об авариях всяких
+https://petersburg.ru/mainPortal/api_services/view/2227 -- ремонт эскалаторов
+https://petersburg.ru/mainPortal/api_services/view/2217 -- памятные места питера
+https://petersburg.ru/mainPortal/api_services/view/2258 -- памятные места питера
+https://petersburg.ru/mainPortal/api_services/view/2198 -- рестораны питера
+https://petersburg.ru/mainPortal/api_services/view/2199 -- афиша событий
+https://petersburg.ru/mainPortal/api_services/view/2230 -- музеи
+https://petersburg.ru/mainPortal/api_services/view/2233 -- театры
+https://petersburg.ru/mainPortal/api_services/view/2268 -- красивые места питера
+https://petersburg.ru/mainPortal/api_services/view/2264 -- дворцах культуры и клубах, концертных площадках, театрах, кинотеатрах, музеях и галереях
+https://petersburg.ru/mainPortal/api_services/view/2220 -- места стройки
+https://petersburg.ru/mainPortal/api_services/view/2229 -- спортивный площадки
+https://petersburg.ru/mainPortal/api_services/view/2202 -- объекты культурного наследия
+https://petersburg.ru/mainPortal/api_services/view/2254 -- достопримечательности
+https://petersburg.ru/mainPortal/api_services/view/2266 -- культурные мероприятия
+https://petersburg.ru/mainPortal/api_services/view/2277 -- объекты городской среды
+https://petersburg.ru/mainPortal/api_services/view/2223 -- геокодер
+https://petersburg.ru/mainPortal/api_services/view/2215 -- выставочные залы
+https://petersburg.ru/mainPortal/api_services/view/2242 -- вокзалы и метро
+https://petersburg.ru/mainPortal/api_services/view/2664 -- ещё мероприятия
+https://petersburg.ru/mainPortal/api_services/view/2271 -- автобус
+https://petersburg.ru/mainPortal/api_services/view/2235 -- развод мостов
+https://petersburg.ru/mainPortal/api_services/view/2588 -- блокада ленинграда
+https://petersburg.ru/mainPortal/api_services/view/2212 -- зоны wifi
+https://petersburg.ru/mainPortal/api_services/view/2680 -- уличные музыканты
+https://petersburg.ru/mainPortal/api_services;role=10 -- ветеринарные клиники
