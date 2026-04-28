@@ -39,7 +39,7 @@ services:
       RABBITMQ_PASS: guest
       RABBITMQ_REQUEST_QUEUE: map-request
       RABBITMQ_RESPONSE_QUEUE: map-response
-      OSM_FILE: /app/map/northwestern-fed-district-260424.osm.pbf
+      OSM_FILE: /app/map/map-name.osm.pbf
       GRAPH_LOCATION: /app/graph-cache
       SERVER_PORT: 8084
       JWT_PUBLIC_KEY_PATH: classpath:certs/public.pem
